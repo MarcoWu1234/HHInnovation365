@@ -12,7 +12,7 @@
     
     body {
       font-family: "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
-      background: linear-gradient(135deg, #3a5f8c 0%, #416e8f 25%, #487e91 50%, #5c8a9a 75%, #6e96a3 100%);
+      background: linear-gradient(135deg, #6B46C1 0%, #7155D9 25%, #7664E1 50%, #805AD5 75%, #9F7AEA 100%);
       background-size: 400% 400%;
       animation: gradientShift 15s ease infinite;
       color: #333;
@@ -61,7 +61,7 @@
       font-size: 4rem;
       font-weight: 800;
       margin-bottom: 30px;
-      background: linear-gradient(45deg, #f0a85c, #5cb3cc, #fff7d6);
+      background: linear-gradient(45deg, #D53F8C, #9F7AEA, #F687B3);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -137,7 +137,7 @@
     }
     
     .phase-icon {
-      background: linear-gradient(135deg, #f0a85c, #e5884d);
+      background: linear-gradient(135deg, #D53F8C, #C53030);
       color: white;
       width: 60px;
       height: 60px;
@@ -168,7 +168,7 @@
     }
     
     .phase-highlight {
-      background: linear-gradient(135deg, #5cb3cc, #3a5f8c);
+      background: linear-gradient(135deg, #9F7AEA, #6B46C1);
       color: white;
       padding: 20px;
       border-radius: 15px;
@@ -203,7 +203,7 @@
       left: 0;
       width: 100%;
       height: 4px;
-      background: linear-gradient(90deg, #f0a85c, #e5884d, #5cb3cc, #3a5f8c);
+      background: linear-gradient(90deg, #D53F8C, #C53030, #9F7AEA, #6B46C1);
       background-size: 400% 400%;
       animation: gradientMove 3s ease infinite;
     }
@@ -243,7 +243,7 @@
     .section-header h2 {
       color: #2d3748;
       font-size: 1.8rem;
-      font-weight: 700;
+      font-weight: 600;
     }
     
     /* Process Flow Image */
@@ -263,7 +263,7 @@
     /* Cards Grid */
     .cards-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px;
       gap: 30px;
       margin-top: 30px;
     }
@@ -418,7 +418,7 @@
       left: 0;
       color: #5cb3cc;
       font-size: 1.2rem;
-      background: linear-gradient(135deg, #5cb3cc, #3a5f8c);
+      background: linear-gradient(135deg, #9F7AEA, #6B46C1);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -516,7 +516,56 @@
       </div>
     </div>
   </section>
+  <!-- 重要说明 -->
+  <div class="container">
+    <section class="section" style="border: 3px solid rgb(240, 168, 92); background: linear-gradient(135deg, rgba(240, 168, 92, 0.05), rgba(58, 95, 140, 0.05)); opacity: 1; transform: translateY(0px);">
+      <div class="section-header">
+        <div class="section-icon" style="background: linear-gradient(135deg, #D53F8C, #C53030); animation: pulse 2s ease-in-out infinite;">
+          <i class="fas fa-exclamation-triangle"></i>
+        </div>
+        <h2 style="color: #e5884d;">重要说明 - PEH定位澄清</h2>
+      </div>
+      
+      <div style="background: linear-gradient(135deg, #D53F8C, #C53030); color: white; padding: 30px; border-radius: 20px; margin: 25px 0; box-shadow: 0 15px 35px rgba(240, 168, 92, 0.3); font-weight: 600; font-size: 1.15rem; text-align: center;">
+        <i class="fas fa-lightbulb" style="font-size: 1.5rem; margin-right: 10px;"></i>
+        <strong>PEH并不是为了管理非项目人员或空档资源而设立的部门，而是推动企业人才标准建设与能力提升的重要体系。</strong>
+      </div>
 
+      <div class="cards-grid" style="margin-top: 30px;">
+        <div class="card" style="border-left: 5px solid #5cb3cc;">
+          <div class="card-title" style="color: #5cb3cc;">
+            <i class="fas fa-project-diagram"></i>
+            项目工作机制
+          </div>
+          <div class="card-content">
+            <strong>每位同事都应积极争取在至少一个项目中承担实际工作</strong>，项目中的任务安排、交付进度和日常管理完全由PM和PMO负责。
+          </div>
+        </div>
+        
+        <div class="card" style="border-left: 5px solid rgb(240, 168, 92); transform: translateY(0px) scale(1);">
+          <div class="card-title" style="color: #e5884d;">
+            <i class="fas fa-users-cog"></i>
+            PEH体系参与
+          </div>
+          <div class="card-content">
+            <strong>每个人无论是否在项目上，都必须属于PEH体系中的至少一个Hub</strong>，持续参与岗位标准的制定和完善。
+          </div>
+        </div>
+      </div>
+
+      <div style="background: rgba(255, 255, 255, 0.8); border: 2px dashed #5cb3cc; border-radius: 20px; padding: 30px; margin: 30px 0; text-align: center;">
+        <h3 style="color: #2d3748; margin-bottom: 20px; font-size: 1.4rem;">
+          <i class="fas fa-sync-alt" style="color: #5cb3cc; margin-right: 10px;"></i>
+          双轨并行机制
+        </h3>
+        <p style="font-size: 1.1rem; color: #4a5568; line-height: 1.8; margin-bottom: 0;">
+          <strong>项目工作与PEH职责是两套并行且互补的机制：</strong><br>
+          一方面在项目中积累实践经验，另一方面在PEH中推动专业标准建设，<br>
+          <span style="color: #f0a85c; font-weight: 700;">共同构成个人的完整职责和发展路径。</span>
+        </p>
+      </div>
+    </section>
+  </div>
   <!-- Current Phase -->
   <div class="container">
     <section class="current-phase" style="opacity: 1; transform: translateY(0px);">
@@ -537,6 +586,8 @@
 
   <main>
     <div class="container">
+      
+
       <!-- PEH核心职责 -->
       <section class="section" style="opacity: 1; transform: translateY(0px);">
         <div class="section-header">
@@ -545,7 +596,7 @@
           </div>
           <h2>PEH核心职责</h2>
         </div>
-        <div style="background: linear-gradient(135deg, #5cb3cc, #3a5f8c); color: white; padding: 25px; border-radius: 15px; margin: 20px 0; box-shadow: 0 10px 25px rgba(58, 95, 140, 0.3); font-weight: 600;">
+        <div style="background: linear-gradient(135deg, #9F7AEA, #6B46C1); color: white; padding: 25px; border-radius: 15px; margin: 20px 0; box-shadow: 0 10px 25px rgba(58, 95, 140, 0.3); font-weight: 600;">
           <strong>牵头制定岗位标准，并在项目中验证和持续迭代</strong>
         </div>
         <ul class="custom-list">
@@ -586,21 +637,20 @@
               Hub Lead职责
             </div>
             <div class="card-content">
-              负责制定和提升本岗位标准，带领团队成员共同推进标准化工作，确保标准的专业性和实用性。
+              Hub Lead并不是指传统意义的团队领导，而是负责本 Hub 技术先进性的推动与实现，具体的方法和实践由 Hub Lead 落实，可以寻求 Hub 内高级资源以及 PEH、PMO 的支持，同时总结本 Hub 内人员的贡献情况。
             </div>
           </div>
-          <div class="card">
+          <div class="card" style="transform: translateY(0px) scale(1);">
             <div class="card-title">
               <i class="fas fa-users"></i>
               人员归属原则
             </div>
             <div class="card-content">
-              每位同事都在至少一个Hub承担职责，可选择加入多个Hub，但必须有一个核心主Hub作为主要责任领域。
+              依据个人的主要技术强项或者专精，从属于某个 Hub 但不限于只贡献于某一个 Hub，在每个 Hub 领域的贡献都会被统计贡献。
             </div>
           </div>
         </div>
       </section>
-
       <!-- 绩效分配机制 -->
       <section class="section" style="opacity: 1; transform: translateY(0px);">
         <div class="section-header">
@@ -609,76 +659,171 @@
           </div>
           <h2>绩效分配机制</h2>
         </div>
-        <div class="performance-grid">
-          <div class="performance-card">
-            <div class="performance-number">70<span style="font-size: 2.5rem;">%</span></div>
-            <div class="performance-label">项目绩效</div>
-            <div class="performance-detail">
-              来源：PMO<br>
-              依据：项目工作表现<br>
-              评估实际项目贡献度和执行效果
-            </div>
-          </div>
-          <div class="performance-card">
-            <div class="performance-number">30<span style="font-size: 2.5rem;">%</span></div>
-            <div class="performance-label">Hub贡献</div>
-            <div class="performance-detail">
-              来源：PEH<br>
-              依据：对Hub贡献程度<br>
-              评估标准制定与改进贡献度
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- 重要说明 -->
-      <section class="section" style="border: 3px solid rgb(240, 168, 92); background: linear-gradient(135deg, rgba(240, 168, 92, 0.05), rgba(58, 95, 140, 0.05)); opacity: 1; transform: translateY(0px);">
-        <div class="section-header">
-          <div class="section-icon" style="background: linear-gradient(135deg, #f0a85c, #e5884d); animation: pulse 2s ease-in-out infinite;">
-            <i class="fas fa-exclamation-triangle"></i>
-          </div>
-          <h2 style="color: #e5884d;">重要说明 - PEH定位澄清</h2>
-        </div>
         
-        <div style="background: linear-gradient(135deg, #f0a85c, #e5884d); color: white; padding: 30px; border-radius: 20px; margin: 25px 0; box-shadow: 0 15px 35px rgba(240, 168, 92, 0.3); font-weight: 600; font-size: 1.15rem; text-align: center;">
-          <i class="fas fa-lightbulb" style="font-size: 1.5rem; margin-right: 10px;"></i>
-          <strong>PEH并不是为了管理非项目人员或空档资源而设立的部门，而是推动企业人才标准建设与能力提升的重要体系。</strong>
-        </div>
-
-        <div class="cards-grid" style="margin-top: 30px;">
-          <div class="card" style="border-left: 5px solid #5cb3cc;">
-            <div class="card-title" style="color: #5cb3cc;">
-              <i class="fas fa-project-diagram"></i>
-              项目工作机制
-            </div>
-            <div class="card-content">
-              <strong>每位同事都应积极争取在至少一个项目中承担实际工作</strong>，项目中的任务安排、交付进度和日常管理完全由PM和PMO负责。
+        <!-- 概览 -->
+        <div style="display: flex; gap: 30px; margin-bottom: 40px; align-items: stretch;">
+          <!-- 70%项目绩效 - 弱化 -->
+          <div style="flex: 1; background: white; padding: 20px; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); border: 1px solid #e2e8f0; opacity: 0.7;">
+            <div style="text-align: center;">
+              <div style="font-size: 2.5rem; font-weight: 800; color: #94a3b8; margin-bottom: 10px;">项目绩效</div>
+              <div style="font-size: 0.9rem; color: #94a3b8; line-height: 1.5;">
+                由PMO根据项目表现评定
+              </div>
             </div>
           </div>
           
-          <div class="card" style="border-left: 5px solid #f0a85c;">
-            <div class="card-title" style="color: #e5884d;">
-              <i class="fas fa-users-cog"></i>
-              PEH体系参与
+          <!-- 30%PEH绩效 - 突出 -->
+          <div style="flex: 2; background: linear-gradient(135deg, #D53F8C, #C53030); padding: 30px; border-radius: 20px; box-shadow: 0 20px 40px rgba(240, 168, 92, 0.3); color: white; position: relative; overflow: hidden;">
+            <div style="position: relative; z-index: 2;">
+              <div style="text-align: center; margin-bottom: 20px;">
+                <div style="font-size: 4rem; font-weight: 900; margin-bottom: 10px; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">成长绩效</div>
+                <div style="font-size: 1.1rem; opacity: 0.9;">
+                  <strong>由PEH和各个Hub根据大家在Hub中的贡献度进行评定</strong><br>
+                  通过多种目标达成路径获得绩效
+                </div>
+              </div>
             </div>
-            <div class="card-content">
-              <strong>每个人无论是否在项目上，都必须属于PEH体系中的至少一个Hub</strong>，持续参与岗位标准的制定和完善。
-            </div>
+            <div style="position: absolute; top: -50%; right: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%); animation: pulse 4s ease-in-out infinite;"></div>
           </div>
         </div>
 
-        <div style="background: rgba(255, 255, 255, 0.8); border: 2px dashed #5cb3cc; border-radius: 20px; padding: 30px; margin: 30px 0; text-align: center;">
-          <h3 style="color: #2d3748; margin-bottom: 20px; font-size: 1.4rem;">
-            <i class="fas fa-sync-alt" style="color: #5cb3cc; margin-right: 10px;"></i>
-            双轨并行机制
+        <!-- 30%绩效获取路径 - 简化版 -->
+        <div style="background: rgba(255, 255, 255, 0.95); border-radius: 20px; padding: 30px; margin-top: 30px; box-shadow: 0 15px 30px rgba(0,0,0,0.1);">
+          <h3 style="color: #3a5f8c; font-size: 1.5rem; font-weight: 700; margin-bottom: 20px; text-align: center; position: relative; display: inline-block; padding-bottom: 10px; width: 100%;">
+            <span style="position: relative; z-index: 2;">如何获得成长绩效？</span>
+            <span style="position: absolute; bottom: 0; left: 50%; transform: translateX(-50%); width: 100px; height: 3px; background: linear-gradient(90deg, #f0a85c, #5cb3cc);"></span>
           </h3>
-          <p style="font-size: 1.1rem; color: #4a5568; line-height: 1.8; margin-bottom: 0;">
-            <strong>项目工作与PEH职责是两套并行且互补的机制：</strong><br>
-            一方面在项目中积累实践经验，另一方面在PEH中推动专业标准建设，<br>
-            <span style="color: #f0a85c; font-weight: 700;">共同构成个人的完整职责和发展路径。</span>
-          </p>
+          
+          <!-- 简化的绩效获取路径图 -->
+          <div style="max-width: 800px; margin: 0 auto 30px; padding: 20px; background: rgba(240,168,92,0.05); border-radius: 15px;">
+            <div style="display: flex; flex-direction: column; gap: 20px;">
+              <!-- 路径图标题 -->
+              <div style="text-align: center; font-weight: 700; color: #3a5f8c; font-size: 1.2rem;">
+                <i class="fas fa-map-signs" style="margin-right: 8px;"></i>
+                根据你的角色选择绩效获取路径
+              </div>
+              
+              <!-- 绩效路径图 -->
+              <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+                <!-- Hub Lead路径 -->
+                <div style="flex: 1; min-width: 220px; background: white; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); padding: 20px; position: relative; overflow: hidden;">
+                  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: #f0a85c;"></div>
+                  <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                    <div style="width: 40px; height: 40px; border-radius: 50%; background: #f0a85c; display: flex; align-items: center; justify-content: center; margin-right: 12px;">
+                      <i class="fas fa-crown" style="color: white;"></i>
+                    </div>
+                    <div style="font-weight: 700; color: #2d3748; font-size: 1.1rem;">Hub Lead</div>
+                  </div>
+                  <div style="margin-left: 52px;">
+                    <div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+                      <i class="fas fa-check-circle" style="color: #f0a85c; margin-right: 8px; margin-top: 3px;"></i>
+                      <div>
+                        <strong>PEH/PMO 提出的发展目标或者需求</strong>
+                      </div>
+                    </div>
+                    <div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+                      <i class="fas fa-check-circle" style="color: #f0a85c; margin-right: 8px; margin-top: 3px;"></i>
+                      <div>
+                        <strong>自行制定目标</strong>
+                        <div style="font-size: 0.9rem; color: #4a5568;">PEH审核和review</div>
+                      </div>
+                    </div>
+                    <div style="display: flex; align-items: flex-start;">
+                      <i class="fas fa-arrow-alt-circle-right" style="color: #f0a85c; margin-right: 8px; margin-top: 3px;"></i>
+                      <div><strong>默认获得成长绩效分数</strong></div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Hub成员路径 -->
+                <div style="flex: 1; min-width: 220px; background: white; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); padding: 20px; position: relative; overflow: hidden;">
+                  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: #5cb3cc;"></div>
+                  <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                    <div style="width: 40px; height: 40px; border-radius: 50%; background: #5cb3cc; display: flex; align-items: center; justify-content: center; margin-right: 12px;">
+                      <i class="fas fa-users" style="color: white;"></i>
+                    </div>
+                    <div style="font-weight: 700; color: #2d3748; font-size: 1.1rem;">Hub成员</div>
+                  </div>
+                  <div style="margin-left: 52px;">
+                    <div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+                      <i class="fas fa-check-circle" style="color: #5cb3cc; margin-right: 8px; margin-top: 3px;"></i>
+                      <div>
+                        <strong>完成Hub下发目标</strong>
+                        <div style="font-size: 0.9rem; color: #4a5568;">目标项、研究项</div>
+                      </div>
+                    </div>
+                    <div style="display: flex; align-items: flex-start;">
+                      <i class="fas fa-arrow-alt-circle-right" style="color: #5cb3cc; margin-right: 8px; margin-top: 3px;"></i>
+                      <div><strong>达标获得相应成长绩效分数</strong></div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!--  专家路径  
+                <div style="flex: 1; min-width: 220px; background: white; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); padding: 20px; position: relative; overflow: hidden;">
+                  <div style="position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: #d4a574;"></div>
+                  <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                    <div style="width: 40px; height: 40px; border-radius: 50%; background: #d4a574; display: flex; align-items: center; justify-content: center; margin-right: 12px;">
+                      <i class="fas fa-star" style="color: white;"></i>
+                    </div>
+                    <div style="font-weight: 700; color: #2d3748; font-size: 1.1rem;">高级专家(504+)</div>
+                  </div>
+                  <div style="margin-left: 52px;">
+                    <div style="display: flex; align-items: flex-start; margin-bottom: 10px;">
+                      <i class="fas fa-check-circle" style="color: #d4a574; margin-right: 8px; margin-top: 3px;"></i>
+                      <div>
+                        <strong>承担高级方向任务</strong>
+                        <div style="font-size: 0.9rem; color: #4a5568;">OKR、方案、面试</div>
+                      </div>
+                    </div>
+                    <div style="display: flex; align-items: flex-start;">
+                      <i class="fas fa-arrow-alt-circle-right" style="color: #d4a574; margin-right: 8px; margin-top: 3px;"></i>
+                      <div><strong>默认获得30%绩效</strong></div>
+                    </div>
+                  </div>
+                </div>
+                -->
+              </div>
+              
+              <!-- 新人特殊路径 -->
+              <div style="margin-top: 10px; background: white; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); padding: 15px 20px; position: relative; overflow: hidden; border-left: 5px solid #95b3d4;">
+                <div style="display: flex; align-items: center;">
+                  <div style="width: 36px; height: 36px; border-radius: 50%; background: #95b3d4; display: flex; align-items: center; justify-content: center; margin-right: 12px;">
+                    <i class="fas fa-seedling" style="color: white;"></i>
+                  </div>
+                  <div>
+                    <div style="font-weight: 700; color: #2d3748; font-size: 1.1rem;">新人成长路径</div>
+                    <div style="font-size: 0.9rem; color: #4a5568;">通过自我提升、晋级目标获得成长绩效（根据实际情况确定）</div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- 额外加分项 -->
+              <div style="margin-top: 20px; background: rgba(58,95,140,0.05); border-radius: 12px; padding: 15px; border: 1px dashed #5cb3cc;">
+                <div style="text-align: center; font-weight: 700; color: #3a5f8c; margin-bottom: 15px;">
+                  <i class="fas fa-plus-circle" style="margin-right: 8px;"></i>
+                  晋升考核
+                </div>
+                <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+                  <div style="background: white; padding: 10px 15px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); display: flex; align-items: center;">
+                    <i class="fas fa-level-up-alt" style="color: #5cb3cc; margin-right: 8px;"></i>
+                    <div><strong>个人的晋升与调薪将严格按照既定标准执行，PEH主要负责组织考核与基于标准进行审核。每位同事可根据自身情况自主提出晋升或考核申请，考核结果将依据目标完成度和相关标准予以认定。</strong></div>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Hub Lead管理责任 -->
+              <div style="margin-top: 5px; background: white; border-radius: 12px; padding: 15px; border: 1px solid rgba(58,95,140,0.1); text-align: center;">
+                <div style="color: #3a5f8c; font-weight: 600;">
+                  <i class="fas fa-info-circle" style="margin-right: 8px;"></i>
+                  Hub Lead需定期(每半/月)向PEH汇报人员目标进度、风险，类似PMO对项目的管理
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+      
     </div>
   </main>
 
